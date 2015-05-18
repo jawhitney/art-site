@@ -1,0 +1,31 @@
+[
+   {
+        "id": 0,
+        "title": "Purple Haze",
+        "medium": "Oil on gallery wrapped canvas",
+        "width": 30,
+        "height": 40,
+        "description": "First painting in the \"Chromatic Canyon\" series. Each painting in this series is based upon an original photo of the Grand Canyon. For each photo, I created a paper and oil pastel collage and then crafted a painting based upon that collage.",
+        "type": [ "Abstract", "Landscape" ],
+        "series": [ "Chromatic Canyon" ]
+    },
+    {
+        "id": 1,
+        "title": "Margaret Island Close-Up",
+        "medium": "Acrylic",
+        "width": 16,
+        "height": 20,
+        "description": "This painting is based upon photos of a combination of a variety of flowers that can be found on Margaret Island in Hungary. Photos were taken while I was there in late Summer of 2010.",
+        "type": [ "Realistic" ]
+    },
+    {
+        "id": 2,
+        "title": "Self Portrait",
+        "medium": "Acrylic on canvas",
+        "width": 24,
+        "height": 48,
+        "description": "TBD",
+        "type": [ "Pop Art" ],
+        "series": [ "Pop Art Portrait" ]
+    }
+]

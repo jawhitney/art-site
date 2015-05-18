@@ -1,0 +1,12 @@
+{
+    "author": "jawhitney",
+    "dependencies": {
+        "express": "~4.7.2",
+        "morgan": "~1.2.2",
+        "body-parser": "~1.5.2"
+    },
+    "description": "Kristin Whitney website",
+    "main": "server.js",
+    "name": "kwhitney-art",
+    "version": "0.0.0"
+}

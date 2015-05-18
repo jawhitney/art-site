@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Angular Video App</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular-route.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-retina/0.3.1/angular-retina.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/core.js"></script>
+    <script src="controllers/paintings.js"></script>
+    <script src="controllers/piece.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#/">Home</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/resume-cv">Resume/CV</a></li>
+                    <li><a href="#/paintings">Paintings</a></li>
+                    <li><a href="#/murals">Murals</a></li>
+                    <li><a href="#/live-paintings">Live Paintings</a></li>
+                    <li><a href="#/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div ng-view></div>
+    </div>
+
+    <script src="js/offcanvas.js"></script>
+</body>
+</html>
